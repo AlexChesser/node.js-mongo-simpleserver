@@ -72,6 +72,8 @@ function CleanDB(){
         });
 }
 
+
+// THIS AREA IS THE "DISPATCHER" 
 http.createServer(function (req, res) {
 	var URL = require('url').parse(req.url, true);
 
