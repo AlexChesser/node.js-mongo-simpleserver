@@ -74,6 +74,8 @@ function CleanDB(){
 
 
 // THIS AREA IS THE "DISPATCHER" 
+// HTTP request comes in and depending on the URL 
+// 
 http.createServer(function (req, res) {
 	var URL = require('url').parse(req.url, true);
 
